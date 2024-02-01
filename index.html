@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>City Weather</h1>
+      <div id="search-container">
+        <input type="search" placeholder="Enter any city eg.Chandigarh, Mohali etc" id="searchData" >
+        <!-- <button id="search-btn" onclick="getData()">Search</button> -->
+    </div>
+      <div id="data-container">
+        <h1 id="cityName"></h1>
+        <div id="split-container">
+                <h1 style="font-size:3em"><span id="temp">--</span>&deg;C</h1>
+                <div>
+                    
+                    <p>Humidity: <span id="humidity">--</span>%</p>
+                    <p>Visibility: <span id="visibility">--</span></p>
+                </div>
+            </div>    
+        <image src="" id="weather-image" alt="image"><br>
+            <span id="status">Cloudy</span>
+        <div id="split-container">
+            <p>Sunrise: <span id="sunrise">--:--</span></p>
+            <p>Sunset: <span id="sunset">--:--</span>
+            </p>
+            
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
